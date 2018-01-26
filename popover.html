@@ -15,12 +15,21 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-
+                <button type="button" class="btn btn-lg btn-danger" data-toggle="popover"
+                    title="Titulo do Popover" data-content="gklggklgkdflgldgkflgkdflgfkglgk
+                     dgkgflgkdlgdlfgkdflgkdlgkdflgklgfkglgfkd">CLIQUE aqui
+                </button>
             </div>
         </div>
     </div>
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script type="javascript">
+        $(function () {
+           $('[data-toggle="popover"]').popover();
+        })
+    </script>
+
 </body>
 </html>

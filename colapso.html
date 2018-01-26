@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Title</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <style type="text/css">
+        .row{
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <p>
+                    <a href="#itemColapso1" class="btn btn-primary" data-toggle="collapse" aria-expanded="false" aria-controls="itemColapso1">
+                        Disparador Href
+                    </a>
+                    <button class="btn btn-primary" data-toggle="collapse" type="button" data-target="#itemColapso2" aria-expanded="false" aria-controls="itemColapso2">
+                        Disparador Button
+                    </button>
+                </p>
+                <div class="collapse" id="itemColapso1">
+                    <div class="card card-body">
+                        <h4>Item 1</h4>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quis nunc lobortis, consequat sapien nec,
+                        laoreet lorem. Aliquam sodales, lorem sed finibus dictum, ex leo scelerisque nisl,
+                        non vehicula dui tortor molestie metus. Sed elementum tortor at nisi porttitor, sed fringilla
+                        orci blandit. Sed id dapibus dolor. Aenean eu feugiat sapien
+                    </div>
+                </div>
+                <div class="collapse" id="itemColapso2">
+                    <div class="card card-body">
+                        <h4>Item 2</h4>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quis nunc lobortis, consequat sapien nec,
+                        laoreet lorem. Aliquam sodales, lorem sed finibus dictum, ex leo scelerisque nisl,
+                        non vehicula dui tortor molestie metus. Sed elementum tortor at nisi porttitor, sed fringilla
+                        orci blandit. Sed id dapibus dolor. Aenean eu feugiat sapien
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div id="accordion" role="tablist">
+                    <div class="card">
+                        <div class="card-hearder" role="tab" id="header1">
+                            <h5 class="mb-0">
+                                <a href="#calapso1" data-toggle="collapse" aria-expanded="true" aria-controls="calapso1">
+                                    Link para Colapso #1
+                                </a>
+                            </h5>
+                        </div>
+                        <div id="calapso1" class="collapse show" role="tabpanel" aria-labelledby="header1" data-parent="#accordion">
+                            <div class="card-body">
+                                <h5>Item Colapso #1</h5>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quis nunc lobortis, consequat sapien nec,
+                                laoreet lorem. Aliquam sodales, lorem sed finibus dictum, ex leo scelerisque nisl,
+                                non vehicula dui tortor molestie metus. Sed elementum tortor at nisi porttitor, sed fringilla
+                                orci blandit. Sed id dapibus dolor. Aenean eu feugiat sapien
+                            </div>
+                        </div>
+                        <div class="card-hearder" role="tab" id="header2">
+                            <h5 class="mb-0">
+                                <a href="#calapso2" data-toggle="collapse" aria-expanded="false" aria-controls="calapso2">
+                                    Link para Colapso #2
+                                </a>
+                            </h5>
+                        </div>
+                        <div id="calapso2" class="collapse" role="tabpanel" aria-labelledby="header2" data-parent="#accordion">
+                            <div class="card-body">
+                                <h5>Item Colapso #2</h5>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quis nunc lobortis, consequat sapien nec,
+                                laoreet lorem. Aliquam sodales, lorem sed finibus dictum, ex leo scelerisque nisl,
+                                non vehicula dui tortor molestie metus. Sed elementum tortor at nisi porttitor, sed fringilla
+                                orci blandit. Sed id dapibus dolor. Aenean eu feugiat sapien
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/popper.js/dist/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

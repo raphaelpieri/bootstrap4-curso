@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Title</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <style type="text/css">
+        .row{
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <form>
+                    <div class="form-group">
+                        <label for="inputEmail1">Email</label>
+                        <input type="email" class="form-control" name="inputEmail1" id="inputEmail1" placeholder="Insira seu email" aria-describedby="emailHelp">
+                        <small id="emailHelp" class="form-text text-muted">Ex.: seuemail@seudominio.com.br</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputSenha1">Senha</label>
+                        <input type="email" class="form-control" name="inputSenha1" id="inputSenha1" placeholder="Insira sua senha" readonly>
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            <input type="checkbox" class="form-check-input">Manter Conectado
+                        </label>
+                    </div>
+                    <button class="btn btn-primary" type="submit">Entrar</button>
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <input type="text" class="form-control form-control-lg">
+                <input type="text" class="form-control">
+                <input type="text" class="form-control form-control-sm">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <form>
+                    <div class="form-group row">
+                        <label for="inputEmail2" class="col-sm-2 col-form-label">Email</label>
+                        <div class="col-sm-10">
+                            <input type="email" class="form-control-plaintext" name="inputEmail1" id="inputEmail2"
+                                   placeholder="Insira seu email" value="raphaeldppf@hotmail.com" readonly>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="inputSenha2" class="col-sm-2 col-form-label">Senha</label>
+                        <div class="col-sm-10">
+                            <input type="email" class="form-control" name="inputSenha1" id="inputSenha2"
+                                   placeholder="Insira sua senha">
+                        </div>
+                    </div>
+                    <button class="btn btn-primary" type="submit">Entrar</button>
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <form>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="nome" class="col-form-label">Nome:</label>
+                            <input type="text" class="form-control"id="nome" name="nome" placeholder="Digite seu nome">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="sobrenome" class="col-form-label">Sobrenome:</label>
+                            <input type="text" class="form-control"id="sobrenome" name="sobrenome" placeholder="Digite seu sobrenome">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="endereco" class="col-form-label">Endereço:</label>
+                        <input type="text" class="form-control"id="endereco" name="endereco" placeholder="Digite seu endereço">
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="cidade" class="col-form-label">Cidade:</label>
+                            <input type="text" class="form-control"id="cidade" name="cidade" placeholder="Digite sua cidade">
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="estado" class="col-form-label">Estado:</label>
+                            <input type="text" class="form-control"id="estado" name="estado" placeholder="Digite seu estado">
+                        </div>
+                        <div class="form-group col-md-2">
+                            <label for="cep" class="col-form-label">CEP:</label>
+                            <input type="text" class="form-control"id="cep" name="cep" placeholder="Digite seu CEP">
+                        </div>
+                    </div>
+                    <button class="btn btn-primary">Cadastrar</button>
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <form class="form-inline">
+                    <label for="nameInLine" class="sr-only">Nome</label>
+                    <input type="text" class="form-control mb-2 mr-2" id="nameInLine" placeholder="Digite seu nome">
+                    <label for="senhaInLine" class="sr-only">Senha</label>
+                    <input type="text" class="form-control mb-2 mr-2" id="senhaInLine" placeholder="Digite sua senha">
+                    <button class="btn btn-primary">Entrar</button>
+
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Title</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <style type="text/css">
+        .row{
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <ul class="list-group">
+                    <li class="list-group-item">Item 1</li>
+                    <li class="list-group-item active">Item 2</li>
+                    <li class="list-group-item disabled">Item 3</li>
+                    <li class="list-group-item">Item 4</li>
+                </ul>
+            </div>
+            <div class="col-4">
+                <div class="list-group">
+                    <a href="#" class="list-group-item active">Link 1</a>
+                    <a href="#" class="list-group-item list-group-item-action">Link 2</a>
+                    <a href="#" class="list-group-item list-group-item-action">Link 3</a>
+                    <a href="#" class="list-group-item disabled list-group-item-action">Link 4</a>
+                    <a href="#" class="list-group-item list-group-item-action">Link 5</a>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="list-group">
+                    <button type="button" class="list-group-item list-group-item-action active">Link 1</button>
+                    <button type="button" class="list-group-item list-group-item-action">Link 2</button>
+                    <button type="button" class="list-group-item list-group-item-action">Link 3</button>
+                    <button type="button" class="list-group-item list-group-item-action" disabled>Link 4</button>
+                    <button type="button" class="list-group-item list-group-item-action">Link 5</button>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <ul class="list-group">
+                    <li class="list-group-item list-group-item-primary">Item 1</li>
+                    <li class="list-group-item active">Item 2</li>
+                    <li class="list-group-item disabled">Item 3</li>
+                    <li class="list-group-item list-group-item-secondary">Item 4</li>
+                </ul>
+            </div>
+            <div class="col-4">
+                <div class="list-group">
+                    <a href="#" class="list-group-item active">Link 1</a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-danger">Link 2</a>
+                    <a href="#" class="list-group-item list-group-item-action">Link 3</a>
+                    <a href="#" class="list-group-item disabled list-group-item-action">Link 4</a>
+                    <a href="#" class="list-group-item list-group-item-action">Link 5</a>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="list-group">
+                    <button type="button" class="list-group-item list-group-item-action active">Link 1</button>
+                    <button type="button" class="list-group-item list-group-item-action">Link 2</button>
+                    <button type="button" class="list-group-item list-group-item-action">Link 3</button>
+                    <button type="button" class="list-group-item list-group-item-action" disabled>Link 4</button>
+                    <button type="button" class="list-group-item list-group-item-action list-group-item-dark">Link 5</button>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <div class="list-group">
+                    <a href="#" class="list-group-item list-group-item-action">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h5>Titulo da minha lista</h5>
+                            <small>3 dias atras</small>
+                        </div>
+                        <p class="mb-1">TEdsoisoidoswisdoisdoisdodis odsiosdioswdisdisdo</p>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h5>Titulo da minha lista</h5>
+                            <small>3 dias atras</small>
+                        </div>
+                        <p class="mb-1">TEdsoisoidoswisdoisdoisdo disodsiosd ioswdisdisdo</p>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h5>Titulo da minha lista</h5>
+                            <small>3 dias atras</small>
+                        </div>
+                        <p class="mb-1">TEdsoisoidoswisdoisdo isdodisodsiosd ioswdisdisdo</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-3">
+                <div class="list-group" id="list-tab" role="tablist">
+                    <a href="#list-home" class="list-group-item list-group-item-action active" id="list-home-list"
+                       data-toggle="list" role="tab">HOME</a>
+                    <a href="#list-perfil" class="list-group-item list-group-item-action" id="list-perfil-list"
+                       data-toggle="list" role="tab">Perfil</a>
+                    <a href="#list-cliente" class="list-group-item list-group-item-action" id="list-perfil-cliente"
+                       data-toggle="list" role="tab">Cliente</a>
+                </div>
+            </div>
+            <div class="col-9">
+                <div class="tab-content" id="nav-tabContent">
+                    <div id="list-home" class="tab-pane fade show active" role="tabpanel">
+                        <h3>Home</h3>
+                        <p>fkdsfldkfldfk slfkdsflkdslfk sdlfkdslfkdklsf lsdkflsdkfls sdlfkdlsfdklsf</p>
+                    </div>
+                    <div id="list-perfil" class="tab-pane fade" role="tabpanel">
+                        <h3>Perfil</h3>
+                        <p>fkdsfldkfldfk slfkdsflkdslfk sdlfkdslfkdklsf lsdkflsdkfls sdlfkdlsfdklsf</p>
+                    </div>
+                    <div id="list-cliente" class="tab-pane fade" role="tabpanel">
+                        <h3>Cliente</h3>
+                        <p>fkdsfldkfldfk slfkdsflkdslfk sdlfkdslfkdklsf lsdkflsdkfls sdlfkdlsfdklsf</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
